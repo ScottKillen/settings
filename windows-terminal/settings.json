@@ -73,7 +73,6 @@
         "foreground": "#000",
         "icon": "C:/Users/scott/shaftoe.png",
         "selectionBackground": "#6d2970"
-        //        "source": "Windows.Terminal.Wsl"
       },
       {
         "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -87,6 +86,28 @@
   // Add custom color schemes to this array.
   // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
   "schemes": [
+    {
+      // Color Scheme: IR Black
+      "background": "#000000",
+      "black": "#000000",
+      "blue": "#44B4CC",
+      "brightBlack": "#6c6c66",
+      "brightBlue": "#96cbfe",
+      "brightCyan": "#cbc5fe",
+      "brightGreen": "#a8ff60",
+      "brightPurple": "#ff73fd",
+      "brightRed": "#ff6c60",
+      "brightWhite": "#fdfbee",
+      "brightYellow": "#ffffb6",
+      "cyan": "#c6c5fe",
+      "foreground": "#b5b3aa",
+      "green": "#a8ff60",
+      "name": "IRBlack",
+      "purple": "#ff73fd",
+      "red": "#ff6c60",
+      "white": "#b5b3aa",
+      "yellow": "#ffffb6"
+    },
     {
       // Color Scheme: VibrantInk
       "background": "#000000",
