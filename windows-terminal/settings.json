@@ -45,7 +45,6 @@
       {
         "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
         "name": "Ubuntu",
-        "antialiasingMode": "cleartype",
         "backgroundImage": "Z:/Dropbox/Dropbox (KillenCPA)/Personal/Pictures/blacklace.jpg",
         "backgroundImageOpacity": 0.25,
         "hidden": false,
@@ -61,7 +60,6 @@
       {
         "guid": "{bc5f9712-3a1f-4020-8467-543cca96c5a6}",
         "name": "ssh Shaftoe",
-        "antialiasingMode": "cleartype",
         "backgroundImage": "Z:/Dropbox/Dropbox (KillenCPA)/Personal/Pictures/gridonblack.jpg",
         "backgroundImageOpacity": 0.25,
         "hidden": false,
