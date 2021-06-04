@@ -20,7 +20,12 @@ line-spacing=0
 nav=0
 
 #misc
-desktopinfo64=1
+#desktopinfo64=1
+
+[text]
+menu-language=
+menu-export=
+menu-about=
 
 [items]
 
