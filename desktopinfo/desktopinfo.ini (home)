@@ -45,8 +45,8 @@ COLOR=%White%
 COMMENT=text:
 
 # date and time
-DATETIME=set:clock,interval:15,display:%5[1.0a]:%6[2.0d]%5[2.0p],set:day=%1[dddd] month=%3[mmmm] dom=%2 year=%4[yyyy],hidden:1
-COMMENT=text:%clock%,font-size:24
+DATETIME=interval:15,set:hour=%5[1.0a] minute=%6[2.0d] ampm=%5[2.0p] day=%1[dddd] month=%3[mmmm] dom=%2 year=%4[yyyy],hidden:1
+COMMENT=text:%hour%:%minute%%ampm%,font-size:24
 COMMENT=text:%day%,font-size:17
 COMMENT=text:%month% %dom%\, %year%,font-size:14
 
