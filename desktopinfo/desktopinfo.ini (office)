@@ -4,6 +4,7 @@
 top=0
 right=0
 width=320
+scale=0
 
 # font
 font-face=Lucida Sans Typewriter
@@ -45,9 +46,9 @@ COMMENT=text:
 
 # date and time
 DATETIME=interval:15,set:hour=%5[1.0a] minute=%6[2.0d] ampm=%5[2.0p] day=%1[dddd] month=%3[mmmm] dom=%2 year=%4[yyyy],hidden:1
-COMMENT=text:%hour%:%minute%%ampm%,font-size:24
-COMMENT=text:%day%,font-size:17
-COMMENT=text:%month% %dom%\, %year%,font-size:14
+COMMENT=text:%hour%:%minute%%ampm%,font-size:250%
+COMMENT=text:%day%,font-size:200%
+COMMENT=text:%month% %dom%\, %year%,font-size:150%
 
 COMMENT=text:
 
