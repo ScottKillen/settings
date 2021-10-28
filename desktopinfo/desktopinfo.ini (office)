@@ -7,8 +7,8 @@ width=370
 scale=0
 
 # font
-font-face=Lucida Sans Typewriter
-font-size=9
+font-face=Segoe UI
+font-size=8
 font-quality=5
 line-spacing=0
 
@@ -20,7 +20,9 @@ line-spacing=0
 nav=0
 
 #misc
-#desktopinfo64=1
+formcolor=000001
+transparency=23
+
 
 [text]
 menu-language=
@@ -30,15 +32,15 @@ menu-about=
 [items]
 
 # colors
-set=key:White,value:#ffffff
-set=key:Grey,value:#a0a0a0
-set=key:Cyan,value:#00ffff
-set=key:Magenta,value:#ff00ff
-set=key:Green,value:#00ff00
-set=key:Orange,value:#ffb871
-set=key:Silver,value:#c0c0c0
-set=key:Blue,value:#0000f0
-set=key:Red,value:#ff0000
+set=key:White,value:#f8f8f2
+set=key:Grey,value:#92928c
+set=key:Cyan,value:#80ffea
+set=key:Magenta,value:#ff80bf
+set=key:Green,value:#8aff80
+set=key:Orange,value:#ddca80
+set=key:Silver,value:#c5c5bf
+set=key:Blue,value:#80ffea
+set=key:Red,value:#ff9580
 
 COLOR=%White%
 
@@ -52,7 +54,7 @@ COMMENT=text:%month% %dom%\, %year%,font-size:150%
 
 COMMENT=text:
 
-COMMENT=color:%Grey%,font-face:Rock Salt,font-size:150%,text:Scott D. Killen\, CPA
+COMMENT=color:%White%,font-face:Rock Salt,font-size:150%,text:Scott D. Killen\, CPA
 
 COMMENT=text:
 
@@ -76,30 +78,6 @@ BOOTTIME=text:Last Boot:,display:%3[mmmm] %2\, %4[yyyy] %10
 
 COMMENT=text:
 
-# hardware
-COMMENT=color:%Orange%,text:HARDWARE
-CPUTYPE=set:cpu_type,interval:0,hidden:1
-COMMENT=text:%cpu_type%
-DISPLAYCONTROLLER=set:gpu,interval:0,hidden:1
-COMMENT=text:%gpu%
-
-COMMENT=text:
-
-# memory
-COMMENT=color:%Orange%,text:MEMORY USED
-PHYSICALRAM=text:RAM:,interval:5,chart:bar2 scale:linear max:100 series1:3 threshold:80 color1:b55393 color2:%orange% color3:%red%,display:%1[6.1g] of %2[4.0g]GB %chart%
-VIRTUALMEMORY=text:Virtual:,interval:5,chart:bar2 scale:linear max:100 series1:3 threshold:80 color1:b55393 color2:%orange% color3:%red%,display:%1[6.1g] of %2[4.0g]GB %chart%
-PAGEFILE=text:Page file:,interval:5,chart:bar2 scale:linear max:100 series1:3 threshold:80 color1:b55393 color2:%orange% color3:%red%,display:%1[6.1g] of %2[4.0g]GB %chart%
-
-COMMENT=text:
-
-# disks
-COMMENT=color:%Orange%,text:STORAGE USED
-LOGICALDRIVES=include:cdwxz,text:,interval:15,diskio:1,chart:bar2 scale:linear max:100 series1:7 threshold:80 color1:b55393 color2:%orange% color3:%red%,threshold1:11 10000000 0000f0,threshold2:13 10000000,threshold3:7 90 0070f0, 0060f0,row-text:%1:,display:%6[6.1g] of %5[4.0g]GB %chart%
-## %7[3.0f]%
-
-COMMENT=text:
-
 # network
 COMMENT=color:%Orange%,text:NETWORK
 NETWORKINTERFACES=text:,interval:30,operstatus:1,iftype:6 71,row-text:%2 IP:,display:%8,friendlyfilter:+Ethernet-vEth
@@ -117,3 +95,5 @@ COMMENT=text:,font-size:200%
 # Contacts
 COMMENT=color:%Green%,text:CONTACTS
 FILECONTENTS=text:,interval:0,file:C:\Users\scott\Documents\Active\Contacts.txt,wide:1
+
+COMMENT=text:,font-size:300%
